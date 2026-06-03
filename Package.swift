@@ -2,16 +2,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "ChatSdk",
+    name: "SdkCore",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: "ChatSdk", targets: ["ChatSdk"])
+        .library(name: "SdkCore", targets: ["SdkCore"])
     ],
     targets: [
         .binaryTarget(
-            name: "ChatSdk",
-            url: "https://github.com/jitbackClassera/LMS-iOS-KMP-Releases/releases/download/1.0.0/ChatSdk.xcframework.zip",
-            checksum: "74ac00dc97fddcdbe0d7bdc2b198e45a2c6e251fc6751cc2dc515b5b36162704"
+            name: "SdkCore",
+            url: "https://github.com/jitbackClassera/LMS-iOS-AI-KMP-Releases/releases/download/1.0.0/SdkCore.xcframework.zip",
+            checksum: "e61c09442bcfa33c3e43488b6789bee6832f321d475219d5b95da125e62ac5aa"
         )
     ]
 )
