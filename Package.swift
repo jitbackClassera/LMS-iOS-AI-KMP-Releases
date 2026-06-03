@@ -5,7 +5,7 @@ let package = Package(
     name: "AILms",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: "AILms", targets: ["AILms"])
+        .library(name: "AILms", targets: ["SdkCore"])
     ],
     targets: [
         .binaryTarget(
