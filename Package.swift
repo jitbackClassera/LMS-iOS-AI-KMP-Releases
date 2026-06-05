@@ -5,13 +5,13 @@ let package = Package(
     name: "AILms",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: "AILms", targets: ["SdkCore"])
+        .library(name: "AILms", targets: ["AILms"])
     ],
     targets: [
         .binaryTarget(
-            name: "SdkCore",
-            url: "https://github.com/jitbackClassera/LMS-iOS-AI-KMP-Releases/releases/download/1.0.3/SdkCore.xcframework.zip",
-            checksum: "2b6697cf56f383a8493d68e60d821cad08127896d3423a25461b8502779f475b"
+            name: "AILms",
+            url: "https://github.com/jitbackClassera/LMS-iOS-AI-KMP-Releases/releases/download/1.0.4/AILms.xcframework.zip",
+            checksum: "a92142d3e81ccad66971896f9cc6c587c56391428e3465bd19463fb14785005e"
         )
     ]
 )
