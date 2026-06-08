@@ -10,8 +10,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AILms",
-            url: "https://github.com/jitbackClassera/LMS-iOS-AI-KMP-Releases/releases/download/1.0.4/AILms.xcframework.zip",
-            checksum: "a92142d3e81ccad66971896f9cc6c587c56391428e3465bd19463fb14785005e"
+            url: "https://github.com/jitbackClassera/LMS-iOS-AI-KMP-Releases/releases/download/1.0.5/AILms.xcframework.zip",
+            checksum: "1d3299b2723d57edaeba3c78022a9a46ebbd3245bbe7e4527d76aca403394d18"
         )
     ]
 )
