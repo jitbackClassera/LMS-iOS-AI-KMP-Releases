@@ -4,9 +4,7 @@ import PackageDescription
 let package = Package(
     name: "AILms",
     platforms: [.iOS(.v13)],
-    products: [
-        .library(name: "AILms", targets: ["AILms"])
-    ],
+    products: [.library(name: "AILms", targets: ["AILms"])],
     targets: [
         .binaryTarget(
             name: "AILms",
